@@ -1,5 +1,6 @@
 body {
     width: 95%;
+    max-width: 992px;
     margin: auto;
     font-size: 18px;
     line-height: 1.2em;
