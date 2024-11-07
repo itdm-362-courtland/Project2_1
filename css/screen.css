@@ -1,7 +1,7 @@
 body {
     width: 95%;
     margin: auto;
-    font-size: 22px;
+    font-size: 18px;
     line-height: 1.2em;
 }
 
@@ -46,6 +46,7 @@ header {
     opacity: 0.80;
     flex-grow: 3;
     flex-shrink: 1;
+    margin-top: 0;
 }
 
 .article__image {
@@ -57,6 +58,7 @@ header {
     display: grid;
     grid-template-columns: 1fr;
     column-gap: 20px;
+    row-gap: 0.5em;
 }
 
 .navigation {
@@ -64,6 +66,7 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-bottom: 1.0em;
 }
 
 .navigation__option {
@@ -74,6 +77,10 @@ header {
 .navigation__option--float {
     display: inline;
     float: right;
+}
+
+.title {
+    margin-bottom: 0.5em;
 }
 
 .trending {
@@ -88,6 +95,7 @@ header {
 
 .wrap--front {
     column-gap: 0;
+    margin-bottom: 1.0em;
 }
 
 .wrap--image {
