@@ -1,6 +1,8 @@
 body {
     width: 95%;
     margin: auto;
+    font-size: 16px;
+    line-height: 1.2em;
 }
 
 header {
@@ -8,6 +10,18 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.article__headline {
+    font-size: 1em;
+    line-height: 1.2em;
+    opacity: 0.80;
+}
+
+.article__headline--front_page {
+    font-size: 1.618em;
+    line-height: 1.2em;
+    opacity: 1.0;
 }
 
 .article__image {
@@ -26,6 +40,11 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+
+.navigation__option {
+    font-size: 1em;
+    line-height: 1.2em;
 }
 
 .navigation__option--float {
