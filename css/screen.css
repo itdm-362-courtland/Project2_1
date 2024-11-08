@@ -1,3 +1,7 @@
+a {
+    text-decoration: none;
+}
+
 body {
     width: 95%;
     max-width: 992px;
@@ -51,6 +55,7 @@ header {
 }
 
 .article__headline {
+    color: black;
     font-size: 1em;
     line-height: 1.2em;
     opacity: 0.80;
