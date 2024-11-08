@@ -28,9 +28,9 @@ img {
 text-align: center;
 }
 
-h2 {
+ul {
   font-size: 20px;
-  padding-left: 90px;
+  padding-left: 20px;
 }
   .container {
   display: flex;
@@ -38,3 +38,27 @@ h2 {
   justify-content: center
 }
 
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ff9900;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
