@@ -1,7 +1,7 @@
 body {
   font-family: "Times New Roman", Times, serif;
   color: black;
-  background-color: #ff6600; /* Solid orange background */
+  background-color: #ff6600; 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,9 +20,11 @@ body {
 }
 
 #signup-page h1 {
-  font-size: 1.8em;
+  font-size: 2.5em; 
+  font-weight: bold; 
   color: black;
   margin: 0 0 20px;
+  text-align: center; 
 }
 
 #signup-page h2 {
