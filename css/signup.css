@@ -1,19 +1,12 @@
 body {
-  font-family: Arial, sans-serif;
-  background: linear-gradient(to bottom, #ff9a8b, #ff6a3c);
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+  background-color: #ff6600; 
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
   margin: 0;
-  color: #333;
-}
-
-header h1 {
-  text-align: center;
-  font-size: 1.8em;
-  color: #fff;
-  margin-top: 0;
 }
 
 #signup-page {
@@ -26,16 +19,24 @@ header h1 {
   margin: 20px;
 }
 
+#signup-page h1 {
+  font-size: 2.5em; 
+  font-weight: bold; 
+  color: black;
+  margin: 0 0 20px;
+  text-align: center; 
+}
+
 #signup-page h2 {
   font-size: 1.5em;
-  color: #333;
+  color: black;
   margin-bottom: 10px;
 }
 
 #signup-form label {
   display: block;
   font-weight: bold;
-  color: #555;
+  color: black;
   margin-top: 10px;
 }
 
@@ -52,7 +53,7 @@ header h1 {
   width: 100%;
   padding: 12px;
   background-color: #28a745;
-  color: #fff;
+  color: #ffffff;
   border: none;
   border-radius: 4px;
   font-size: 1.1em;
@@ -70,7 +71,7 @@ header h1 {
   font-size: 0.9em;
 }
 
-#signup-page p a {
+  #signup-page p a {
   color: #007bff;
   text-decoration: none;
   font-weight: bold;
@@ -78,12 +79,6 @@ header h1 {
 
 #signup-page p a:hover {
   text-decoration: underline;
-}
-
-#signup-page p,
-header h1 {
-  text-align: center;
-  margin-top: 15px;
 }
 
 @media (max-width: 480px) {
